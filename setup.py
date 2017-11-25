@@ -9,7 +9,7 @@ setup(
     packages = ['DesignSparkPmod'],
     version = '0.1',
     description = 'Raspberry Pi Pmod HAT support library',
-    author = 'RS Components",
+    author = 'RS Components',
     author_email = 'maint@abopen.com',
     url = 'https://github.com/designsparkrs/DesignSparkPmod',
     # download_url = 'https://github.com/designsparkrs/DesignSparkPmod/archive/0.1.tar.gz',
