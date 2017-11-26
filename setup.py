@@ -12,7 +12,7 @@ setup(
     author = 'RS Components',
     author_email = 'maint@abopen.com',
     url = 'https://github.com/designsparkrs/DesignSparkPmod',
-    # download_url = 'https://github.com/designsparkrs/DesignSparkPmod/archive/0.1.tar.gz',
+    download_url = 'https://github.com/designsparkrs/DesignSparkPmod/archive/0.1.tar.gz',
     install_requires = ['future','RPI.GPIO','spidev','luma.oled','luma.core'],
     license = 'MIT License',
     long_description = open('README.rst').read(),
