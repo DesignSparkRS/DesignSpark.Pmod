@@ -60,10 +60,10 @@ DesignSpark\.Pmod\.PmodTC1 module
     :undoc-members:
     :show-inheritance:
 
-DesignSpark\.Pmod\.device module
+DesignSpark\.Pmod\.HAT module
 --------------------------------
 
-.. automodule:: DesignSpark.Pmod.device
+.. automodule:: DesignSpark.Pmod.HAT
     :members:
     :undoc-members:
     :show-inheritance:
