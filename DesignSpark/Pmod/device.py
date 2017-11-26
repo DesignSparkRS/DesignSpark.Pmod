@@ -7,13 +7,13 @@ Support library for the Raspberry Pi Pmod HAT.
 """
 
 from __future__ import absolute_import
-from DesignSparkPmod import PmodTC1
-from DesignSparkPmod import PmodAD1
-from DesignSparkPmod import PmodMIC3
-from DesignSparkPmod import PmodHB3
-from DesignSparkPmod import PmodISNS20
-from DesignSparkPmod import PmodOLEDrgb
-from DesignSparkPmod import PmodError
+from DesignSpark.Pmod import PmodTC1
+from DesignSpark.Pmod import PmodAD1
+from DesignSpark.Pmod import PmodMIC3
+from DesignSpark.Pmod import PmodHB3
+from DesignSpark.Pmod import PmodISNS20
+from DesignSpark.Pmod import PmodOLEDrgb
+from DesignSpark.Pmod import PmodError
 
 # Physical pin map of Pmod to BCM I/O
 

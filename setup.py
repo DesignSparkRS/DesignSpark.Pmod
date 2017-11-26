@@ -6,7 +6,8 @@ from setuptools import setup
 
 setup(
     name = 'DesignSparkPmod',
-    packages = ['DesignSparkPmod'],
+    namespace_packages=['DesignSpark'],
+    packages = ['DesignSpark.Pmod'],
     version = '0.1',
     description = 'Raspberry Pi Pmod HAT support library',
     author = 'RS Components',
