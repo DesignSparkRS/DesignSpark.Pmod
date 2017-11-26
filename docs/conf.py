@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# DesignSparkPmod documentation build configuration file, created by
-# sphinx-quickstart on Sat Nov 25 16:33:22 2017.
+# DesignSpark.Pmod documentation build configuration file, created by
+# sphinx-quickstart on Sun Nov 26 18:39:53 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -23,6 +23,8 @@ import mock
 
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../'))
+
+# Mock Raspberry Pi GPIO module
 
 sys.modules['RPi'] = mock.Mock()
 sys.modules['RPi.GPIO'] = mock.Mock()
@@ -58,16 +60,16 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'DesignSparkPmod'
-copyright = '2017, RS Components'
-author = 'RS Components'
+project = 'DesignSpark.Pmod'
+copyright = '2017, RS Components Ltd'
+author = 'RS Components Ltd'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = '0.1'
+version = '0.1.0'
 # The full version, including alpha/beta/rc tags.
 release = '0.1.0'
 
@@ -151,8 +153,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'DesignSparkPmod.tex', 'DesignSparkPmod Documentation',
-     'RS Components', 'manual'),
+    (master_doc, 'DesignSparkPmod.tex', 'DesignSpark.Pmod Documentation',
+     'RS Components Ltd', 'manual'),
 ]
 
 
@@ -161,7 +163,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'designsparkpmod', 'DesignSparkPmod Documentation',
+    (master_doc, 'designsparkpmod', 'DesignSpark.Pmod Documentation',
      [author], 1)
 ]
 
@@ -172,7 +174,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'DesignSparkPmod', 'DesignSparkPmod Documentation',
+    (master_doc, 'DesignSparkPmod', 'DesignSpark.Pmod Documentation',
      author, 'DesignSparkPmod', 'One line description of project.',
      'Miscellaneous'),
 ]

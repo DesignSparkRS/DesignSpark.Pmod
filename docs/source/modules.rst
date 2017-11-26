@@ -1,7 +1,7 @@
-DesignSparkPmod
-===============
+DesignSpark
+===========
 
 .. toctree::
    :maxdepth: 4
 
-   DesignSparkPmod
+   DesignSpark
