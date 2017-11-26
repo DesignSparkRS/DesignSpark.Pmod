@@ -2,7 +2,7 @@
 # Copyright (c) 2017 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
-## ADC only single channel A1 available over hardware spi
+## ADC only single channel A1 available over hardware SPI
 
 import spidev
 CAP = 'SPI'

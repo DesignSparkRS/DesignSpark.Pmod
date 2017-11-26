@@ -4,7 +4,6 @@
 
 ## oled display based on ssd1331 ## depends on luma.oled
 
-#import DesignSpark.Pmod.device as dspm
 import RPi.GPIO as gpio
 from luma.core.render import canvas
 from luma.core.sprite_system import framerate_regulator

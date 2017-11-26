@@ -5,15 +5,15 @@
 from setuptools import setup
 
 setup(
-    name = 'DesignSparkPmod',
+    name = 'DesignSpark.Pmod',
     namespace_packages=['DesignSpark'],
     packages = ['DesignSpark.Pmod'],
     version = '0.1',
     description = 'Raspberry Pi Pmod HAT support library',
     author = 'RS Components',
     author_email = 'maint@abopen.com',
-    url = 'https://github.com/designsparkrs/DesignSparkPmod',
-    download_url = 'https://github.com/designsparkrs/DesignSparkPmod/archive/0.1.tar.gz',
+    url = 'https://github.com/designsparkrs/DesignSpark.Pmod',
+    download_url = 'https://github.com/designsparkrs/DesignSpark.Pmod/archive/0.1.tar.gz',
     install_requires = ['future','RPI.GPIO','spidev','luma.oled','luma.core'],
     license = 'MIT License',
     long_description = open('README.rst').read(),
