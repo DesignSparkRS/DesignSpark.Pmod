@@ -1,20 +1,13 @@
-.. DesignSpark.Pmod documentation master file, created by
-   sphinx-quickstart on Sun Nov 26 18:39:53 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to DesignSpark.Pmod's documentation!
-============================================
+DesignSpark.Pmod Documentation
+==============================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   supported-hardware
+   installation
+   examples
+   api
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. include:: ../CHANGES.rst
+.. include:: ../LICENSE.rst
