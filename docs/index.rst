@@ -1,10 +1,13 @@
-DesignSpark.Pmod Documentation
-==============================
+.. include:: ../README.rst
+
+Table of Contents
+-----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :numbered:
 
-   supported-hardware
+   supported-pmods
    installation
    examples
    api
