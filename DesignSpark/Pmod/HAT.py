@@ -7,13 +7,13 @@ Support library for the Raspberry Pi Pmod HAT.
 """
 
 from __future__ import absolute_import
-from DesignSpark.Pmod import PmodTC1
-from DesignSpark.Pmod import PmodAD1
-from DesignSpark.Pmod import PmodMIC3
-from DesignSpark.Pmod import PmodHB3
-from DesignSpark.Pmod import PmodISNS20
-from DesignSpark.Pmod import PmodOLEDrgb
-from DesignSpark.Pmod import PmodError
+from DesignSpark.Pmod import TC1
+from DesignSpark.Pmod import AD1
+from DesignSpark.Pmod import MIC3
+from DesignSpark.Pmod import HB3
+from DesignSpark.Pmod import ISNS20
+from DesignSpark.Pmod import OLEDrgb
+from DesignSpark.Pmod import Error
 
 # Physical pin map of Pmod to BCM I/O
 
@@ -57,12 +57,12 @@ JC10 = 6 #GPCLK2
 # Vcc JB12
 
 moduleDict = {
-    'PmodTC1': PmodTC1,
-    'PmodAD1': PmodAD1,
-    'PmodMIC3': PmodMIC3,
-    'PmodHB3': PmodHB3,
-    'PmodISNS20': PmodISNS20,
-    'PmodOLEDrgb': PmodOLEDrgb
+    'TC1': TC1,
+    'AD1': AD1,
+    'MIC3': MIC3,
+    'HB3': HB3,
+    'ISNS20': ISNS20,
+    'OLEDrgb': OLEDrgb
     }
 
 capabilityDict = {
@@ -97,7 +97,7 @@ def createPmod(moduleName, portName):
             module = moduleDict[moduleName]
         else:
             erma = moduleName+' is not a recognised module identifier'
-            raise PmodError.incorrectModuleName(erma) 
+            raise Error.incorrectModuleName(erma) 
     
         if portName == 'JA' or portName == 'JB' or portName == 'JC':
             port = DSPMod12(portName)
@@ -107,19 +107,19 @@ def createPmod(moduleName, portName):
                 port = DSPMod6(portName)
             else:
                 erma = portName+' is not a recognised port identifier'
-                raise PmodError.incorrectPortName(erma)
+                raise Error.incorrectPortName(erma)
         
         if __checkPhysical(module,port) == False:
             erma = 'chosen port '+portName+' is the wrong size'+moduleName+' is a Pmod'+module.PHY+' module' 
-            raise PmodError.portCapabilitySupport(erma)
+            raise Error.portCapabilitySupport(erma)
         
         if __checkCapability(module,port) == False:
             erma = 'chosen port '+portName+' does not support '+module.CAP
-            raise PmodError.portCapabilitySupport(erma)
+            raise Error.portCapabilitySupport(erma)
 
         if port.inUse():
             erma = 'chosen port '+portName+' is already in use with '+portUseDict[portName]
-            raise PmodError.portInUse(erma)
+            raise Error.portInUse(erma)
         
         ## Usage conflicts
         """
@@ -133,11 +133,11 @@ def createPmod(moduleName, portName):
                 if portName == 'JBA' or portName == 'JB':
                     if moduleDict[moduleName].CAP != 'SPI':
                         erma = 'when port JAA is using an SPI module, port '+portName+' must also only use SPI'
-                        raise PmodError.portCapabilityConflict(erma)
+                        raise Error.portCapabilityConflict(erma)
             else:       
                 if portName == 'JBA' or portName == 'JB':
                     erma = 'when port JAA is not using an SPI module, port JBA is unavailable'
-                    raise PmodError.portCapabilityConflict(erma) 
+                    raise Error.portCapabilityConflict(erma) 
 
 
         if 'JBA' in portUseDict:
@@ -146,33 +146,33 @@ def createPmod(moduleName, portName):
                 if portName == 'JAA' or portName == 'JA':
                     if moduleDict[moduleName].CAP != 'SPI':
                         erma = 'when port JBA is using an SPI module port '+portName+' must also only use SPI'
-                        raise PmodError.portCapabilityConflict(erma)
+                        raise Error.portCapabilityConflict(erma)
             else:       
                 if portName == 'JAA' or portName == 'JA':
                     erma = 'when port JBA is not using an SPI module, port JAA is unavailable'
-                    raise PmodError.portCapabilityConflict(erma) 
+                    raise Error.portCapabilityConflict(erma) 
                     
         
         ## All qualifiers passed
         port.setUseModule(moduleName)
 
-        if moduleName == 'PmodHB3':
-            return PmodHB3.PmodHB3(port)
+        if moduleName == 'HB3':
+            return HB3.PmodHB3(port)
         
-        if moduleName == 'PmodAD1':
-            return PmodAD1.PmodAD1(port)   
+        if moduleName == 'AD1':
+            return AD1.PmodAD1(port)   
         
-        if moduleName == 'PmodISNS20':
-            return PmodISNS20.PmodISNS20(port)
+        if moduleName == 'ISNS20':
+            return ISNS20.PmodISNS20(port)
         
-        if moduleName == 'PmodMIC3':
-            return PmodMIC3.PmodMIC3(port)
+        if moduleName == 'MIC3':
+            return MIC3.PmodMIC3(port)
         
-        if moduleName == 'PmodTC1':
-            return PmodTC1.PmodTC1(port)
+        if moduleName == 'TC1':
+            return TC1.PmodTC1(port)
         
-        if moduleName == 'PmodOLEDrgb':
-            return PmodOLEDrgb.PmodOLEDrgb(port)
+        if moduleName == 'OLEDrgb':
+            return OLEDrgb.PmodOLEDrgb(port)
         
     
 class DSPMod6:

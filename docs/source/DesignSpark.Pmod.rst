@@ -4,58 +4,58 @@ DesignSpark\.Pmod package
 Submodules
 ----------
 
-DesignSpark\.Pmod\.PmodAD1 module
+DesignSpark\.Pmod\.AD1 module
 ---------------------------------
 
-.. automodule:: DesignSpark.Pmod.PmodAD1
+.. automodule:: DesignSpark.Pmod.AD1
     :members:
     :undoc-members:
     :show-inheritance:
 
-DesignSpark\.Pmod\.PmodError module
+DesignSpark\.Pmod\.Error module
 -----------------------------------
 
-.. automodule:: DesignSpark.Pmod.PmodError
+.. automodule:: DesignSpark.Pmod.Error
     :members:
     :undoc-members:
     :show-inheritance:
 
-DesignSpark\.Pmod\.PmodHB3 module
+DesignSpark\.Pmod\.HB3 module
 ---------------------------------
 
-.. automodule:: DesignSpark.Pmod.PmodHB3
+.. automodule:: DesignSpark.Pmod.HB3
     :members:
     :undoc-members:
     :show-inheritance:
 
-DesignSpark\.Pmod\.PmodISNS20 module
+DesignSpark\.Pmod\.ISNS20 module
 ------------------------------------
 
-.. automodule:: DesignSpark.Pmod.PmodISNS20
+.. automodule:: DesignSpark.Pmod.ISNS20
     :members:
     :undoc-members:
     :show-inheritance:
 
-DesignSpark\.Pmod\.PmodMIC3 module
+DesignSpark\.Pmod\.MIC3 module
 ----------------------------------
 
-.. automodule:: DesignSpark.Pmod.PmodMIC3
+.. automodule:: DesignSpark.Pmod.MIC3
     :members:
     :undoc-members:
     :show-inheritance:
 
-DesignSpark\.Pmod\.PmodOLEDrgb module
+DesignSpark\.Pmod\.OLEDrgb module
 -------------------------------------
 
-.. automodule:: DesignSpark.Pmod.PmodOLEDrgb
+.. automodule:: DesignSpark.Pmod.OLEDrgb
     :members:
     :undoc-members:
     :show-inheritance:
 
-DesignSpark\.Pmod\.PmodTC1 module
+DesignSpark\.Pmod\.TC1 module
 ---------------------------------
 
-.. automodule:: DesignSpark.Pmod.PmodTC1
+.. automodule:: DesignSpark.Pmod.TC1
     :members:
     :undoc-members:
     :show-inheritance:
