@@ -7,8 +7,8 @@ Table of Contents
    :maxdepth: 1
    :numbered:
 
-   supported-pmods
    installation
+   pmod-information
    examples
    api
 
