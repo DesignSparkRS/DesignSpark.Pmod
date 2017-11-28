@@ -2,7 +2,9 @@
 # Copyright (c) 2017 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
-# hbridge
+"""
+Interface for PmodHB3 module.
+"""
 
 import RPi.GPIO as gpio
 

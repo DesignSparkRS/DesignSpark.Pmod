@@ -3,6 +3,10 @@
 # Copyright (c) 2017 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
+"""
+Print a continous sound level reading out.
+"""
+
 from DesignSpark.Pmod.HAT import createPmod
 import time
 

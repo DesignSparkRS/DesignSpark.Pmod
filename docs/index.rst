@@ -9,7 +9,8 @@ Table of Contents
 
    installation
    pmod-information
-   examples
+   basic-examples
+   advanced-examples
    api
 
 .. include:: ../CHANGES.rst

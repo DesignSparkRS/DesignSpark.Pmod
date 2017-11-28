@@ -54,6 +54,7 @@ API
 
 .. automodule:: DesignSpark.Pmod.OLEDrgb
     :members:
+    :inherited-members:
     :undoc-members:
     :show-inheritance:
 

@@ -20,8 +20,8 @@ Features:
 * 6-pin Pmod port with GPIO interface
 
 .. note::
-    Only a single channel (A1) is supported at present due to the
-    way that SPI is configured.
+   Only a single channel (A1) is supported at present due to the
+   way that SPI is configured.
 
 HB3
 """

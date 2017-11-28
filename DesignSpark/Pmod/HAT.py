@@ -3,7 +3,8 @@
 # SPDX-License-Identifier: MIT License
 
 """
-Support library for the Raspberry Pi Pmod HAT.
+Manages Pmod HAT port resources, enforcing correct usage and 
+avoiding conflicts.
 """
 
 from __future__ import absolute_import
@@ -92,7 +93,6 @@ def __checkCapability(module, port):
     return False
 
 def createPmod(moduleName, portName):
-    # TODO: needs sanity checking of the portname input capabilities and usage
         if moduleName in moduleDict:
             module = moduleDict[moduleName]
         else:
@@ -102,7 +102,6 @@ def createPmod(moduleName, portName):
         if portName == 'JA' or portName == 'JB' or portName == 'JC':
             port = DSPMod12(portName)
         else:
-            # TODO sanitise portNames throw error
             if portName in capabilityDict:
                 port = DSPMod6(portName)
             else:

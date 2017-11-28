@@ -2,7 +2,9 @@
 # Copyright (c) 2017 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
-## microphone
+"""
+Interface for PmodMIC3 (ADCS7476 + Knowles Acoustics SPA2410LR5H-B).
+"""
 
 import spidev
 CAP = 'SPI'

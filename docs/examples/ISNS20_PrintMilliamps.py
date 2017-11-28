@@ -3,6 +3,10 @@
 # Copyright (c) 2017 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
+"""
+Read current and print out milliamps.
+"""
+
 from DesignSpark.Pmod.HAT import createPmod
 import time
 

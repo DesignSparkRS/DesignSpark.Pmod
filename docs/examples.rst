@@ -1,4 +1,0 @@
-Examples
---------
-
-The following examples...

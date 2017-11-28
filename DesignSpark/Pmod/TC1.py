@@ -2,7 +2,9 @@
 # Copyright (c) 2017 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
-## thermocouple
+"""
+Interface for PmodTC1 module (MAX31855).
+"""
 
 import spidev
 CAP = 'SPI'

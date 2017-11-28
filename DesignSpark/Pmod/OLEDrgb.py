@@ -2,7 +2,12 @@
 # Copyright (c) 2017 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
-## oled display based on ssd1331 ## depends on luma.oled
+"""
+Interface for PmodOLEDrgb module (ssd1331).
+
+.. note::
+   Depends on luma.oled and luma.core.
+"""
 
 import RPi.GPIO as gpio
 from luma.core.render import canvas

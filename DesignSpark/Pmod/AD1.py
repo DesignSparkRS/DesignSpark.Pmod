@@ -2,7 +2,12 @@
 # Copyright (c) 2017 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
-## ADC only single channel A1 available over hardware SPI
+"""
+Interface for PmodAD1 module (AD7476A).
+
+.. note::
+   Only a single channel (A1) is supported at present due to the way that SPI is configured.
+"""
 
 import spidev
 CAP = 'SPI'

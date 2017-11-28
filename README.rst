@@ -7,7 +7,7 @@ DesignSpark.Pmod
 .. image:: https://raw.githubusercontent.com/designsparkrs/DesignSpark.Pmod/master/docs/images/Pmod_HAT.jpg
    :alt: HAT
 
-**Python library to support using Pmods with a Raspberry Pi via the DesignSpark Pmod HAT.**
+**Python library to support using Pmods with a Raspberry Pi and the DesignSpark Pmod HAT.**
 
 Features include:
 
@@ -41,7 +41,7 @@ Documentation
 
 Installation and API documentation, along with examples, can be found at:
 
-http://designsparkpmod.readthedocs.io
+http://designspark-pmod.readthedocs.io
 
 For Pmod HAT documentation, including the reference manual and schematic, see:
 

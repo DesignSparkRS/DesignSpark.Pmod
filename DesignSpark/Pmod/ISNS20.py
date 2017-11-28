@@ -2,7 +2,9 @@
 # Copyright (c) 2017 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
-## current sensor
+"""
+Interface for PmodISNS20 module (ADC7476 + Allegro ACS722).
+"""
 
 import spidev
 CAP = 'SPI'
