@@ -14,7 +14,7 @@ import time
 
 if __name__ == '__main__':
 
-    motor = createPmod('PmodHB3','JAA')
+    motor = createPmod('HB3','JAA')
 
     try:
         while True:

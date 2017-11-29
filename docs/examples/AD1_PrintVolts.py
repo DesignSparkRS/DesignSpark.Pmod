@@ -11,7 +11,7 @@ from DesignSpark.Pmod.HAT import createPmod
 import time
 
 if __name__ == '__main__':
-    adc = createPmod('PmodAD1','JBA')
+    adc = createPmod('AD1','JBA')
     time.sleep(0.1)
     
     try:

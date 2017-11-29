@@ -12,7 +12,7 @@ import time
 
 if __name__ == '__main__':
     
-    isens = createPmod('PmodISNS20','JBA')
+    isens = createPmod('ISNS20','JBA')
     time.sleep(0.1)
     
     try:

@@ -18,7 +18,7 @@ for i in range(128):
 
 if __name__ == '__main__':
     
-    mic = createPmod('PmodMIC3','JBA')
+    mic = createPmod('MIC3','JBA')
     time.sleep(0.1)
     
     try:

@@ -63,7 +63,7 @@ def main():
         time.sleep(0.1)
 
 if __name__ == "__main__":
-    oled = createPmod('PmodOLEDrgb','JA')
+    oled = createPmod('OLEDrgb','JA')
     try:
         
         device = oled.getDevice()

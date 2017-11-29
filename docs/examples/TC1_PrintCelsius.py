@@ -12,7 +12,7 @@ import time
 
 if __name__ == '__main__':
     
-    therm = createPmod('PmodTC1','JBA')
+    therm = createPmod('TC1','JBA')
     time.sleep(0.1)
     
     try:

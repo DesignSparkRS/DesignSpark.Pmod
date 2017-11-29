@@ -13,7 +13,7 @@ from luma.oled.device import ssd1331
 
 if __name__ == '__main__':
     try:
-        oled = createPmod('PmodOLEDrgb','JA')
+        oled = createPmod('OLEDrgb','JA')
         device = oled.getDevice()
         
         with canvas(device) as draw:
