@@ -121,3 +121,85 @@ Print the celsius reading out to the terminal, sleep for 0.8s and repeat.
 
    * PmodTC1 module connected to port JBA
 
+PmodACL2
+-------
+
+a 3-axis MEMS accelerometer module. Featurs the Analog Devices ADXL362 device 
+with Measurement ranges ±2g, ±4g, ±8g. Up to 12-bit resolution on each axis.
+
+Print axis out to the terminal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Print the axis reading out to the terminal, sleep for 0.5s and repeat.
+
+.. literalinclude:: examples/ACL2_example.py
+
+.. admonition:: Requirements
+
+   * PmodACL2 module connected to port JB
+
+PmodGPS
+-------
+
+a GlobalTop FGPMMOPA6H GPS antenna module to receive positional data from GPS satellites.
+
+Print date, time, and location out to the terminal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Print the date, time, and location reading out to the terminal, sleep for 0.5s and repeat.
+
+.. literalinclude:: examples/GPS_example.py
+
+.. admonition:: Requirements
+
+   * PmodGPS module connected to port JCA
+   * It takes time to get the data
+
+PmodSWT
+-------
+
+a four slides switches for up to 16 different binary logic inputs to for the attached system board.
+
+Print switches out to the terminal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Print the four switches reading out to the terminal, sleep for 0.5s and repeat.
+
+.. literalinclude:: examples/SWT_example.py
+
+.. admonition:: Requirements
+
+   * PmodSWT module connected to port JAA
+
+PmodLS1
+-------
+
+a line follower robot interface system board.
+
+Print received signals from optical sensor out to the terminal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Print the received signals from multiple optical sensors reading out to the terminal, sleep for 0.5s and repeat.
+
+.. literalinclude:: examples/LS1_example.py
+
+.. admonition:: Requirements
+
+   * PmodLS1 module connected to port JAA
+
+PmodKYPD
+-------
+
+a 16-button keypad that provides users with immense configurability.
+
+Print character out to the terminal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Print the keypad reading out to the terminal, sleep for 0.5s and repeat.
+
+.. literalinclude:: examples/KYPD_example.py
+
+.. admonition:: Requirements
+
+   * PmodKYPD module connected to port JA
+
