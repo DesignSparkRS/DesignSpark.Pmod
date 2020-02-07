@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT License
 
 """
-  Description: Pmod_LS1
+Interface for Pmod_LS1
 """
 
 import RPi.GPIO as GPIO
