@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT License
 
 """
-  Description: Pmod_SWT
+Interface for Pmod_SWT
 """
 
 import RPi.GPIO as GPIO
