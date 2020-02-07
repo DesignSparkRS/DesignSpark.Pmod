@@ -1,5 +1,5 @@
 """
-  Description: Pmod_KYPD
+Interface for Pmod_KYPD
 """
 
 import RPi.GPIO as GPIO
