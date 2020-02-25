@@ -27,11 +27,11 @@ The following Pmods are currently supported:
 * `PmodMIC3 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346475/>`_ MEMS Microphone Module
 * `PmodOLEDrgb <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346481/>`_ 96x64 RGB OLED Display :sup:`1`
 * `PmodTC1 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346476/>`_ K Type Thermocouple Module with Wire
-* `PmodACL2 <https://hken.rs-online.com/web/p/processor-microcontroller-development-kits/1346459/>`_ 3-axis Accelerometer
-* `PmodGPS <https://hken.rs-online.com/web/p/processor-microcontroller-development-kits/1346455/>`_ GPS Satellite Receiver
-* `PmodKYPD <https://hken.rs-online.com/web/p/processor-microcontroller-development-kits/1720813/>`_ 16-Button Keypad
-* `PmodLS1 <https://hken.rs-online.com/web/p/processor-microcontroller-development-kits/1368060/>`_  Line Follower Sensor
-* `PmodSWT <https://hken.rs-online.com/web/p/processor-microcontroller-development-kits/1643480/>`_ Four Slides Switches
+* `PmodACL2 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346459/>`_ 3-axis Accelerometer
+* `PmodGPS <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346455/>`_ GPS Satellite Receiver
+* `PmodKYPD <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1720813/>`_ 16-Button Keypad
+* `PmodLS1 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1368060/>`_  Line Follower Sensor
+* `PmodSWT <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1643480/>`_ Four Slides Switches
 
 :sup:`1` *Builds on the excellent luma.oled and luma.core libraries from Richard Hull and contributors.*
 
