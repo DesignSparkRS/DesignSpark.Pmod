@@ -124,15 +124,15 @@ Print the celsius reading out to the terminal, sleep for 0.8s and repeat.
 PmodACL2
 -------
 
-a 3-axis MEMS accelerometer module. Featurs the Analog Devices ADXL362 device 
+A 3-axis MEMS accelerometer module. Features the Analog Devices ADXL362 device 
 with Measurement ranges ±2g, ±4g, ±8g. Up to 12-bit resolution on each axis.
 
 Print axis out to the terminal
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Print the axis reading out to the terminal, sleep for 0.5s and repeat.
 
-.. literalinclude:: examples/ACL2_example.py
+.. literalinclude:: examples/ACL2_PrintValues.py
 
 .. admonition:: Requirements
 
@@ -141,31 +141,32 @@ Print the axis reading out to the terminal, sleep for 0.5s and repeat.
 PmodGPS
 -------
 
-a GlobalTop FGPMMOPA6H GPS antenna module to receive positional data from GPS satellites.
+A GlobalTop FGPMMOPA6H GPS antenna module to receive position data from GPS satellites.
 
 Print date, time, and location out to the terminal
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Print the date, time, and location reading out to the terminal, sleep for 0.5s and repeat.
 
-.. literalinclude:: examples/GPS_example.py
+.. literalinclude:: examples/GPS_PrintValues.py
 
 .. admonition:: Requirements
 
    * PmodGPS module connected to port JCA
-   * It takes time to get the data
+   * View of the sky or external antenna connected to the module
+   * ...takes time to obtain a fix and get the data
 
 PmodSWT
 -------
 
-a four slides switches for up to 16 different binary logic inputs to for the attached system board.
+Four slides switches for up to 16x different binary logic inputs.
 
 Print switches out to the terminal
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Print the four switches reading out to the terminal, sleep for 0.5s and repeat.
+Read the four switches and print out to the terminal, sleep for 0.5s and repeat.
 
-.. literalinclude:: examples/SWT_example.py
+.. literalinclude:: examples/SWT_PrintValues.py
 
 .. admonition:: Requirements
 
@@ -174,32 +175,31 @@ Print the four switches reading out to the terminal, sleep for 0.5s and repeat.
 PmodLS1
 -------
 
-a line follower robot interface system board.
+A line follower robot interface system board.
 
 Print received signals from optical sensor out to the terminal
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Print the received signals from multiple optical sensors reading out to the terminal, sleep for 0.5s and repeat.
+Print the signals from multiple optical sensors out to the terminal, sleep for 0.5s and repeat.
 
-.. literalinclude:: examples/LS1_example.py
+.. literalinclude:: examples/LS1_PrintValues.py
 
 .. admonition:: Requirements
 
    * PmodLS1 module connected to port JAA
 
 PmodKYPD
--------
+--------
 
-a 16-button keypad that provides users with immense configurability.
+A 16-button keypad.
 
 Print character out to the terminal
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Print the keypad reading out to the terminal, sleep for 0.5s and repeat.
+Print the key presses out to the terminal, sleep for 0.5s and repeat.
 
-.. literalinclude:: examples/KYPD_example.py
+.. literalinclude:: examples/KYPD_PrintValue.py
 
 .. admonition:: Requirements
 
    * PmodKYPD module connected to port JA
-
