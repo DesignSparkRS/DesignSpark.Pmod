@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (c) 2019 RS Components Ltd
+# Copyright (c) 2020 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
 """
-Read current and print out milliamps.
+Read and print out accelerometer values.
 """
 
 from DesignSpark.Pmod.HAT import createPmod

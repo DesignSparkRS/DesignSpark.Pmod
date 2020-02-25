@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (c) 2019 RS Components Ltd
+# Copyright (c) 2020 RS Components Ltd
 # SPDX-License-Identifier: MIT License
 
 """
-Key Pad
+Print keypad presses
 """
 
 from DesignSpark.Pmod.HAT import createPmod
