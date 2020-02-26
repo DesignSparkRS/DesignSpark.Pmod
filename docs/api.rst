@@ -66,3 +66,43 @@ API
     :undoc-members:
     :show-inheritance:
 
+:mod:`DesignSpark.Pmod.ACL2`
+"""""""""""""""""""""""""""
+
+.. automodule:: DesignSpark.Pmod.ACL2
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+:mod:`DesignSpark.Pmod.GPS`
+"""""""""""""""""""""""""""
+
+.. automodule:: DesignSpark.Pmod.GPS
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+:mod:`DesignSpark.Pmod.SWT`
+"""""""""""""""""""""""""""
+
+.. automodule:: DesignSpark.Pmod.SWT
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+:mod:`DesignSpark.Pmod.LS1`
+"""""""""""""""""""""""""""
+
+.. automodule:: DesignSpark.Pmod.LS1
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+:mod:`DesignSpark.Pmod.KYPD`
+"""""""""""""""""""""""""""
+
+.. automodule:: DesignSpark.Pmod.KYPD
+    :members:
+    :undoc-members:
+    :show-inheritance:
+

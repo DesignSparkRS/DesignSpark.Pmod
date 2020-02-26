@@ -15,6 +15,12 @@ from DesignSpark.Pmod import HB3
 from DesignSpark.Pmod import ISNS20
 from DesignSpark.Pmod import OLEDrgb
 from DesignSpark.Pmod import Error
+from DesignSpark.Pmod import SWT
+from DesignSpark.Pmod import ACL2
+from DesignSpark.Pmod import GPS
+from DesignSpark.Pmod import LS1
+from DesignSpark.Pmod import KYPD
+
 
 # Physical pin map of Pmod to BCM I/O
 
@@ -63,7 +69,12 @@ moduleDict = {
     'MIC3': MIC3,
     'HB3': HB3,
     'ISNS20': ISNS20,
-    'OLEDrgb': OLEDrgb
+    'OLEDrgb': OLEDrgb,
+    'SWT': SWT,
+    'ACL2': ACL2,
+    'GPS': GPS,
+    'LS1': LS1,
+    'KYPD': KYPD
     }
 
 capabilityDict = {
@@ -172,8 +183,22 @@ def createPmod(moduleName, portName):
         
         if moduleName == 'OLEDrgb':
             return OLEDrgb.PmodOLEDrgb(port)
+
+        if moduleName == 'SWT':
+            return SWT.PmodSWT(port)
         
-    
+        if moduleName == 'ACL2':
+            return ACL2.PmodACL2(port)
+
+        if moduleName == 'GPS':
+            return GPS.PmodGPS(port)
+
+        if moduleName == 'LS1':
+            return LS1.PmodLS1(port)
+
+        if moduleName == 'KYPD':
+            return KYPD.PmodKYPD(port)
+
 class DSPMod6:
     
     def __init__(self, _portName):

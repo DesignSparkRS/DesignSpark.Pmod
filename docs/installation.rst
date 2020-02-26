@@ -3,7 +3,7 @@ Installation
 
 This guide assumes that you are running Raspbian Stretch.
 
-First enable SPI:
+First enable SPI and configure the UART:
 
 .. code-block:: console
 
@@ -14,6 +14,9 @@ Selecting:
 * Option 5 - Interfacing
 * P4 - SPI
 * Enable → YES
+* P6 - Serial
+* Would you like a login shell to be accessible over serial? → No
+* Would you like the serial port hardware to be enabled? → Yes
 
 Then exit raspi-config.
 

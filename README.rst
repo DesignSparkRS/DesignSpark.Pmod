@@ -19,14 +19,24 @@ Features include:
 Supported Pmods
 ---------------
 
-The following Pmods are currently supported:
+The following modules are currently supported with the `DesignSpark Raspberry Pi Pmod HAT <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1448419/>`_:
 
+* `PmodACL2 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346459/>`_ 3-axis Accelerometer 
 * `PmodAD1 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346443/>`_ 12-bit ADC
-* `PmodHB3 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346445/>`_ 2A H-bridge driver
+* `PmodGPS <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346455/>`_ GPS Module
+* `PmodHB3 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346445/>`_ 2A H-bridge Driver
 * `PmodISNS20 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1368069/>`_ 20A Current Sensor
+* `PmodKYPD <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1720813/>`_ 16-Button Keypad
+* `PmodLS1 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1368060/>`_ Line Follower Sensor Interface
 * `PmodMIC3 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346475/>`_ MEMS Microphone Module
 * `PmodOLEDrgb <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346481/>`_ 96x64 RGB OLED Display :sup:`1`
+* `PmodSWT <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1643480/>`_ Four Slides Switches
 * `PmodTC1 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346476/>`_ K Type Thermocouple Module with Wire
+* `PmodACL2 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346459/>`_ 3-axis Accelerometer
+* `PmodGPS <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346455/>`_ GPS Satellite Receiver
+* `PmodKYPD <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1720813/>`_ 16-Button Keypad
+* `PmodLS1 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1368060/>`_  Line Follower Sensor
+* `PmodSWT <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1643480/>`_ Four Slides Switches
 
 :sup:`1` *Builds on the excellent luma.oled and luma.core libraries from Richard Hull and contributors.*
 
